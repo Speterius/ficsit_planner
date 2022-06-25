@@ -5,7 +5,7 @@ import ReactFlow, {
   BackgroundVariant,
   Node,
   Edge,
-  useReactFlow,
+  useReactFlow
 } from 'react-flow-renderer';
 
 const onNodeDragStop = (_: MouseEvent, node: Node) => console.log('drag stop', node);
@@ -56,31 +56,31 @@ const BasicFlow = () => {
 
   return (
     <ReactFlow
-      defaultNodes={initialNodes}
-      defaultEdges={initialEdges}
-      onNodeClick={onNodeClick}
-      onNodeDragStop={onNodeDragStop}
-      className="react-flow-basic-example"
-      minZoom={0.2}
-      maxZoom={4}
-      fitView
-      defaultEdgeOptions={defaultEdgeOptions}
-      selectNodesOnDrag={false}
+    defaultNodes={initialNodes}
+    defaultEdges={initialEdges}
+    onNodeClick={onNodeClick}
+    onNodeDragStop={onNodeDragStop}
+    className="react-flow-basic-example"
+    minZoom={0.2}
+    maxZoom={4}
+    fitView
+    defaultEdgeOptions={defaultEdgeOptions}
+    selectNodesOnDrag={false}
     >
-      <Background variant={BackgroundVariant.Lines} />
+    <Background variant={BackgroundVariant.Lines} />
 
-      <div style={{ position: 'absolute', right: 10, top: 10, zIndex: 4 }}>
+    <div style={{ position: 'absolute', right: 10, top: 10, zIndex: 4 }}>
         <button onClick={resetTransform} style={{ marginRight: 5 }}>
-          reset transform
+        reset transform
         </button>
         <button onClick={updatePos} style={{ marginRight: 5 }}>
-          change pos
+        change pos
         </button>
         <button onClick={toggleClassnames} style={{ marginRight: 5 }}>
-          toggle classnames
+        toggle classnames
         </button>
         <button onClick={logToObject}>toObject</button>
-      </div>
+    </div>
     </ReactFlow>
   );
 };
