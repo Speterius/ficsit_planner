@@ -1,14 +1,15 @@
 import Header from "./components/Header";
-import BasicFlow from "./components/ExampleFlow";
+// import BasicFlow from "./components/ExampleFlow";
 import ReactFlowProvider from "react-flow-renderer";
+import NodeEditor from "./components/NodeEditor";
 
 function App() {
   return (
     <div className='container'>
-      <Header/>
-      <div style={{ height: 800 }}>
+      <Header className="header"/>
+      <div className="node-editor">
         <ReactFlowProvider>
-          <BasicFlow/>
+          <NodeEditor/>
         </ReactFlowProvider>
       </div>
     </div>
