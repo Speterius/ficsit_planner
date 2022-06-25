@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/ficsit_planner/static/css/main.073c9b0a.css",
+    "main.js": "/ficsit_planner/static/js/main.7c9bd665.js",
+    "static/js/787.23578001.chunk.js": "/ficsit_planner/static/js/787.23578001.chunk.js",
+    "static/media/logo.svg": "/ficsit_planner/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/ficsit_planner/index.html",
+    "main.073c9b0a.css.map": "/ficsit_planner/static/css/main.073c9b0a.css.map",
+    "main.7c9bd665.js.map": "/ficsit_planner/static/js/main.7c9bd665.js.map",
+    "787.23578001.chunk.js.map": "/ficsit_planner/static/js/787.23578001.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.073c9b0a.css",
+    "static/js/main.7c9bd665.js"
+  ]
+}
